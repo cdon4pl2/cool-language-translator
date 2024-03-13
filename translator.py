@@ -15,7 +15,7 @@ ltr10 = input("Wpisz słowo do przetłumaczenia(max 10 ltrs):")
 
 def translator(letter):
     alphabet = ["None", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "q", "p", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-    for i in range(1, 24):
+    for i in range(1, 27):
         if letter == alphabet[i]:
             number = str(i)
             print(number + "x😎🤡")
